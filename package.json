@@ -1,0 +1,19 @@
+{
+  "name": "sharewith",
+  "version": "1.0.0",
+  "description": "P2P file sharing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "build": "webpack --mode production"
+  },
+  "author": "Vivek Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "process": "^0.11.10",
+    "ua-parser-js": "^1.0.35",
+    "unique-names-generator": "^4.7.1",
+    "ws": "^8.13.0"
+  }
+}
